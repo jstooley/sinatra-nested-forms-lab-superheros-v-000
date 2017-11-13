@@ -5,6 +5,7 @@ class SuperHero
     @name = hash[:name]
     @power = hash[:power]
     @bio = hash[:bio]
+    @@all << self
   end
-  
+
 end
