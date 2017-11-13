@@ -5,6 +5,8 @@ class Team
     
     @name = hash[:name]
     @motto = hash[:motto]
+    @team = Team.new (params)
+    
 
   end
 
