@@ -13,6 +13,7 @@ class App < Sinatra::Base
       @team = Team.new (params[:team])
 
       params[:team][:hero].each do |detail|
+        SuperHero.new(detail)
       end
       erb :team
     end
