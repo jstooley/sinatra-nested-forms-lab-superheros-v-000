@@ -1,6 +1,6 @@
 class Team
   attr_reader :name, :motto
 
-  def initialize
+  def initialize(hash)
   end
 end
