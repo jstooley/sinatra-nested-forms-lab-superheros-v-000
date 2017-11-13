@@ -5,5 +5,5 @@ class Team
     @name = hash[:name]
     @motto = hash[:motto]
   end
-  
+
 end
