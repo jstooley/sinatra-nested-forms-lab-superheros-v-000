@@ -9,7 +9,7 @@ class SuperHero
   end
 
   def self.all
-    self.all
+    @@all
   end
 
 end
